@@ -9,6 +9,10 @@ import { LoginComponent } from './pages/login/login.component';
 import { CadastroComponent } from './pages/cadastro/cadastro.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomeComponent } from './pages/home/home.component';
+import { DivisorComponent } from './components/divisor/divisor.component';
+import { FilterCardComponent } from './components/filter-card/filter-card.component';
+import { ProductCardComponent } from './components/product-card/product-card.component';
+import { PdpComponent } from './pages/pdp/pdp.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +22,11 @@ import { HomeComponent } from './pages/home/home.component';
     LoginComponent,
     CadastroComponent,
     NavbarComponent,
-    HomeComponent
+    HomeComponent,
+    DivisorComponent,
+    FilterCardComponent,
+    ProductCardComponent,
+    PdpComponent
   ],
   imports: [
     BrowserModule,
