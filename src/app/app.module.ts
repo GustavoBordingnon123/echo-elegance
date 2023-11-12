@@ -19,6 +19,8 @@ import { AdmCadastroComponent } from './pages/adm-cadastro/adm-cadastro.componen
 import { HomeAdmComponent } from './pages/home-adm/home-adm.component';
 import { AdmProductCardComponent } from './components/adm-product-card/adm-product-card.component';
 import { EditProductComponent } from './pages/edit-product/edit-product.component';
+import { StarRatingComponent } from './components/star-rating/star-rating.component';
+import { FilterProductsComponent } from './pages/filter-products/filter-products.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +40,9 @@ import { EditProductComponent } from './pages/edit-product/edit-product.componen
     AdmCadastroComponent,
     HomeAdmComponent,
     AdmProductCardComponent,
-    EditProductComponent
+    EditProductComponent,
+    StarRatingComponent,
+    FilterProductsComponent
   ],
   imports: [
     BrowserModule,

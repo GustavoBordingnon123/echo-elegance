@@ -9,6 +9,7 @@ import { AdmLoginComponent } from './pages/adm-login/adm-login.component';
 import { AdmCadastroComponent } from './pages/adm-cadastro/adm-cadastro.component';
 import { HomeAdmComponent } from './pages/home-adm/home-adm.component';
 import { EditProductComponent } from './pages/edit-product/edit-product.component';
+import { FilterProductsComponent } from './pages/filter-products/filter-products.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/login', pathMatch: 'full' }, // Redirecionar para 'home' por padrão
@@ -39,7 +40,8 @@ const routes: Routes = [
       }
   },
   { path: 'adm-home', component: HomeAdmComponent },
-  { path: 'edit-product', component: EditProductComponent }
+  { path: 'edit-product', component: EditProductComponent },
+  { path: 'filter-products', component: FilterProductsComponent }
 
 
 ];
