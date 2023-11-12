@@ -13,5 +13,6 @@ export class CustomInputComponent {
   @Input() label: string = "";
   @Input() placeholder: string = "";
   @Input() type: string = "text";
+  @Input() value: string = "";
 
 }

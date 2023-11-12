@@ -13,6 +13,12 @@ import { DivisorComponent } from './components/divisor/divisor.component';
 import { FilterCardComponent } from './components/filter-card/filter-card.component';
 import { ProductCardComponent } from './components/product-card/product-card.component';
 import { PdpComponent } from './pages/pdp/pdp.component';
+import { UserComponent } from './pages/user/user.component';
+import { AdmLoginComponent } from './pages/adm-login/adm-login.component';
+import { AdmCadastroComponent } from './pages/adm-cadastro/adm-cadastro.component';
+import { HomeAdmComponent } from './pages/home-adm/home-adm.component';
+import { AdmProductCardComponent } from './components/adm-product-card/adm-product-card.component';
+import { EditProductComponent } from './pages/edit-product/edit-product.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +32,13 @@ import { PdpComponent } from './pages/pdp/pdp.component';
     DivisorComponent,
     FilterCardComponent,
     ProductCardComponent,
-    PdpComponent
+    PdpComponent,
+    UserComponent,
+    AdmLoginComponent,
+    AdmCadastroComponent,
+    HomeAdmComponent,
+    AdmProductCardComponent,
+    EditProductComponent
   ],
   imports: [
     BrowserModule,

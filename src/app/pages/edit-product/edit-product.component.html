@@ -1,0 +1,16 @@
+<body>
+    <app-navbar />
+
+    <main>
+        <div class="container">
+            <h1>Edite seu produto:</h1>
+            <app-custom-input label="Title" value="{{ title }}" placeholder="digite um novo title"/>
+            <app-custom-input label="Descrição"  value="{{ description }}" placeholder="digite uma nova descrição"/>
+            <app-custom-input label="Marca"  value="{{ marca }}" placeholder="digite uma nova marca"/>
+            <app-custom-input label="Nota"  value="{{ nota }}" placeholder="digite uma nova nota"/>
+            <app-custom-input label="origem"  value="{{ origem }}" placeholder="digite uma nova origem"/>
+            <app-custom-input label="Preço"  value="{{ price }}" placeholder="digite um novo Preço"/>
+            <app-custom-button [buttonText]="'Salvar'" (click)="editar()"/>
+        </div>
+    </main>
+</body>
